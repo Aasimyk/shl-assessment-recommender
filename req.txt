@@ -3,10 +3,10 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.6
 
 sentence-transformers==3.1.1
-# torch==2.9.1  # temporarily commented out if Render keeps failing
+# torch==2.9.1   # leave commented for now if you want to avoid more build issues
 
 numpy==1.26.4
-pandas==2.2.2
+pandas==2.2.3
 scikit-learn==1.5.2
 
 beautifulsoup4==4.12.3
