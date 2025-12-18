@@ -1,0 +1,30 @@
+# Core web framework / UI
+streamlit==1.40.0
+
+# Scraping (new, robust headless browser)
+playwright==1.49.0
+
+# HTML parsing (lightweight helper)
+beautifulsoup4==4.12.3
+
+# HTTP client (for any simple fetches you may still want)
+requests==2.32.3
+
+# ML / embeddings / similarity
+sentence-transformers==3.1.1
+scikit-learn==1.5.2
+numpy==1.26.4
+scipy==1.13.1
+
+# Data handling
+pandas==2.2.3
+
+# FastAPI backend (optional but recommended for the API endpoint)
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+
+# Typing helpers (optional, for nicer dev)
+typing-extensions==4.12.2
+
+openpyxl==3.1.5        # for reading Gen_AI-Dataset.xlsx
+python-multipart==0.0.9
